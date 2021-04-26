@@ -26,7 +26,12 @@ export class LogUpdateService {
 		alert('current version is'+ event.current);
 		alert('available version is' + event.available);
         console.log('available version is', event.available);
-    });
+		var promptUser = confirm("update available. press ok to update");
+		if (promptUser) {
+			this.updates.activateUpdate().then(() =>
+			     document.location.reload());
+		}
+      });
 
   }
   
