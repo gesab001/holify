@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1619398051445,
-  "index": "/holify/index.html",
+  "timestamp": 1619399747899,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/holify/favicon.ico",
-        "/holify/index.html",
-        "/holify/main.ea971ec37e654858002b.js",
-        "/holify/manifest.webmanifest",
-        "/holify/polyfills.35a5ca1855eb057f016a.js",
-        "/holify/runtime.acf0dec4155e77772545.js",
-        "/holify/styles.3ff695c00d717f2d2a11.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.ea971ec37e654858002b.js",
+        "/manifest.webmanifest",
+        "/polyfills.35a5ca1855eb057f016a.js",
+        "/runtime.acf0dec4155e77772545.js",
+        "/styles.3ff695c00d717f2d2a11.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/holify/assets/icons/icon-128x128.png",
-        "/holify/assets/icons/icon-144x144.png",
-        "/holify/assets/icons/icon-152x152.png",
-        "/holify/assets/icons/icon-192x192.png",
-        "/holify/assets/icons/icon-384x384.png",
-        "/holify/assets/icons/icon-512x512.png",
-        "/holify/assets/icons/icon-72x72.png",
-        "/holify/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/holify/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/holify/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/holify/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/holify/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/holify/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/holify/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/holify/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/holify/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/holify/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/holify/index.html": "4686c48e2895ce1e23b960db6733ff57b4627454",
-    "/holify/main.ea971ec37e654858002b.js": "1018acd124703932e56daf058968d10b869d50e7",
-    "/holify/manifest.webmanifest": "7a4065a80220497c6b92b16f9685386ddbb94499",
-    "/holify/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
-    "/holify/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/holify/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "71cdad237275a6f72bbbe2c764c0244345aa47e3",
+    "/main.ea971ec37e654858002b.js": "1018acd124703932e56daf058968d10b869d50e7",
+    "/manifest.webmanifest": "7a4065a80220497c6b92b16f9685386ddbb94499",
+    "/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
+    "/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
