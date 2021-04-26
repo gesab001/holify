@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619473898157,
+  "timestamp": 1619474275995,
   "index": "/holify/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/holify/favicon.ico",
         "/holify/index.html",
-        "/holify/main.3434d3c23fe10e397bdb.js",
+        "/holify/main.44d068df36f5ac5f544d.js",
         "/holify/manifest.webmanifest",
         "/holify/polyfills.35a5ca1855eb057f016a.js",
         "/holify/runtime.acf0dec4155e77772545.js",
@@ -52,8 +52,8 @@
     "/holify/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/holify/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/holify/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/holify/index.html": "945679c3b4fc4b53b4efb5e79e6f1c70ab6bb9b9",
-    "/holify/main.3434d3c23fe10e397bdb.js": "3157bb23fd5e92df489323a0c6bdfbe0d622a22a",
+    "/holify/index.html": "fced66a8f901921f6fdfdff30a517e444a4aeb13",
+    "/holify/main.44d068df36f5ac5f544d.js": "ba45224e8350ca99f7086107a4caa582f9a04ef7",
     "/holify/manifest.webmanifest": "7a4065a80220497c6b92b16f9685386ddbb94499",
     "/holify/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/holify/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
