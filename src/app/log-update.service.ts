@@ -24,7 +24,7 @@ export class LogUpdateService {
 	  this.updates.available.subscribe(event => {
         console.log('current version is', event.current);
 		alert('current version is'+ event.current);
-		alert('current version is' + event.available);
+		alert('available version is' + event.available);
         console.log('available version is', event.available);
     });
 
