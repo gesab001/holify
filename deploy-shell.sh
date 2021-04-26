@@ -11,6 +11,7 @@ read varname
 sudo git commit -m "$varname"
 sudo git push --all
 
-ng deploy --base-href=/holify/
+ng run holify:app-shell:production
+ng deploy --no-build --base-href=/holify/
 
 
