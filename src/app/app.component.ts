@@ -11,7 +11,20 @@ export class AppComponent  implements OnInit {
   title = 'holify';
   logdata: any;
   subscription;
-  constructor (private logUpdateService: LogUpdateService){}
+  constructor (private logUpdateService: LogUpdateService){
+	  
+	  document.addEventListener(
+	    "visibilitychange",
+		() => {
+		  if (document.hidden){
+             console.log("document is hidden");
+		  }else{
+          
+			       this.logUpdateData(); 
+		  }			  
+		}
+		);
+  }
   
   
   ngOnInit(): void { 
@@ -20,7 +33,7 @@ export class AppComponent  implements OnInit {
   }
   
   logUpdateData() {
-	 
+	    alert("document is showing");
        this.logUpdateService.getAvailableUpdate();
   }
 }
