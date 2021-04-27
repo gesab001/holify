@@ -20,8 +20,7 @@ export class AppComponent  implements OnInit {
              console.log("document is hidden");
 		  }else{
           
-			      	alert("document showing");
-
+                    this.logUpdateData(); 
 		  }			  
 		}
 		);
@@ -34,7 +33,6 @@ export class AppComponent  implements OnInit {
   }
   
   logUpdateData() {
-	    alert("document is showing");
        this.logUpdateService.getAvailableUpdate();
   }
 }
