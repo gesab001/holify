@@ -22,14 +22,13 @@ export class LogUpdateService {
 	  console.log("log update service get available update");
 	  alert("log update service get available update");
 	  this.updates.available.subscribe(event => {
-        console.log('current version is', event.current);
-		alert('current version is'+ event.current);
-		alert('available version is' + event.available);
-        console.log('available version is', event.available);
+        console.log('current version is', event.current.hash);
+		alert('current version is '+ event.current.hash + ', available version is' + event.available.hash);
+        console.log('available version is', event.available.hash);
 		var promptUser = confirm("update available. press ok to update");
 		if (promptUser) {
 			this.updates.activateUpdate().then(() =>
-			     document.location.reload());
+				document.location.reload());
 		}
       });
 
@@ -39,6 +38,13 @@ export class LogUpdateService {
 	  this.updates.activated.subscribe(event => {
       console.log('old version was', event.previous);
       console.log('new version is', event.current);
+	  var string = 'old version: ' + event.previous.hash + " > " + "new version: " + event.current.hash;
+	  alert(string);
     });
+  }
+  
+  checkForUpdates(){
+	  alert("checking for updates");
+	  this.updates.checkForUpdate().then(value => {console.log(value)}).catch(err => {console.log(err)});
   }
 }

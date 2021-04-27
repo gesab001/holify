@@ -19,9 +19,10 @@ export class AppComponent  implements OnInit {
 		  if (document.hidden){
              console.log("document is hidden");
 		  }else{
-          
+                  document.location.reload();
+				 
                   
-		  }			  			     document.location.reload());
+		  }			  			  
 
 		}
 		);
@@ -35,5 +36,9 @@ export class AppComponent  implements OnInit {
   
   logUpdateData() {
        this.logUpdateService.getAvailableUpdate();
+  }
+  
+  checkForUpdates(){
+	  this.logUpdateService.checkForUpdates();
   }
 }
