@@ -20,7 +20,7 @@ export class LogUpdateService {
   getAvailableUpdate(){ 
       this.clearCache();
 	  console.log("log update service get available update");
-	  alert("log update service get available update");
+	  alert("checking for updates");
 	  this.updates.available.subscribe(event => {
         console.log('current version is', event.current.hash);
 		alert('current version is '+ event.current.hash + ', available version is' + event.available.hash);
