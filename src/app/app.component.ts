@@ -20,8 +20,9 @@ export class AppComponent  implements OnInit {
              console.log("document is hidden");
 		  }else{
           
-                    this.logUpdateData(); 
-		  }			  
+                  
+		  }			  			     document.location.reload());
+
 		}
 		);
   }
