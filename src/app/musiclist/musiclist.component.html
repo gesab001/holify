@@ -1,0 +1,12 @@
+<p>musiclist works!</p>
+<p>{{songs | json }}</p>
+<div *ngFor="let item of songs.items">
+  <div>
+  <span class="music-title">{{item.title}}</span>
+  <a  class="music-links" [routerLink]="['/player', 'mp3', item.mp3]" routerLinkActive="active">instrumental</a>
+  <a  class="music-links" [routerLink]="['/player', 'mp3', item.mp3]" routerLinkActive="active">song</a>
+  <a  class="music-links" [routerLink]="['/player', 'mp4', item.mp4.karaoke]" routerLinkActive="active">karaoke</a>
+  <a  class="music-links" [routerLink]="['/player', 'mp4', item.mp4.music_video]" routerLinkActive="active">video</a>
+  <button>add to playlist</button>
+  </div>
+</div>  
