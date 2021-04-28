@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1619550657799,
+  "timestamp": 1619643564294,
   "index": "/holify/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/holify/favicon.ico",
         "/holify/index.html",
-        "/holify/main.d035599012709affa92f.js",
+        "/holify/main.344b0f70a75239bebea1.js",
         "/holify/manifest.webmanifest",
         "/holify/polyfills.35a5ca1855eb057f016a.js",
         "/holify/runtime.acf0dec4155e77772545.js",
@@ -29,6 +29,11 @@
         "ignoreVary": true
       },
       "urls": [
+        "/holify/assets/audio/horse.mp3",
+        "/holify/assets/audio/songlist.json",
+        "/holify/assets/audio/sound-convert.mp3",
+        "/holify/assets/audio/sound.mp3",
+        "/holify/assets/audio/test.m4a",
         "/holify/assets/icons/icon-128x128.png",
         "/holify/assets/icons/icon-144x144.png",
         "/holify/assets/icons/icon-152x152.png",
@@ -43,6 +48,11 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/holify/assets/audio/horse.mp3": "deef1d4ab68912068f5df4a99fc42d536e920906",
+    "/holify/assets/audio/songlist.json": "7e8078a48e6c4fef3adcf95f7110194856cb5262",
+    "/holify/assets/audio/sound-convert.mp3": "ee8cdc25d02203c0500fe342b0d7b973197be995",
+    "/holify/assets/audio/sound.mp3": "60934471f72d52d195e104f8361b5f879cc77e8f",
+    "/holify/assets/audio/test.m4a": "2c268ee595e48a6d996d8aee1589c23d0cedd46e",
     "/holify/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/holify/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/holify/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -52,8 +62,8 @@
     "/holify/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/holify/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/holify/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/holify/index.html": "b0fbf7f51b7b0df7c73f7978a60ec523d309d7ba",
-    "/holify/main.d035599012709affa92f.js": "7c9d8107bbbe09207fb5b69d7a086857f5923b39",
+    "/holify/index.html": "b0fa269723b41e4dea34d9ae039ef1e182586661",
+    "/holify/main.344b0f70a75239bebea1.js": "ba5e9b7f62b17066d30b495a2d27c2d392a0f50e",
     "/holify/manifest.webmanifest": "7a4065a80220497c6b92b16f9685386ddbb94499",
     "/holify/polyfills.35a5ca1855eb057f016a.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/holify/runtime.acf0dec4155e77772545.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
