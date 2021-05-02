@@ -5,7 +5,8 @@ import { PlayerComponent } from './player/player.component';
 
 const routes: Routes = [
 						  {path: '', component: HomeComponent},
-                          { path: 'player/:type/:filename', component: PlayerComponent }
+                          { path: 'player/:type/:filename', component: PlayerComponent },
+						  { path: 'player/:instrumental/:vocal/:karaoke/:musicVideo/:filename', component: PlayerComponent }
 						  
 					   ];
 

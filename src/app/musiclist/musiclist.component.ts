@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import songlist from '../../assets/audio/songlist.json';
-import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-musiclist',
@@ -8,15 +7,15 @@ import { Location } from '@angular/common';
   styleUrls: ['./musiclist.component.css']
 })
 export class MusiclistComponent implements OnInit {
+  letters_small = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+  letters_big = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
   songs = songlist;
-  constructor(private location: Location) { }
+  constructor() { }
 
   ngOnInit(): void {
+  	  
   }
+  
 
-  back(): void {
-	alert("go back");  
-    this.location.back();
-  }
 }
